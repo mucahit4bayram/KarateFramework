@@ -1,0 +1,20 @@
+<testsuite failures="1" name="features/potsNewUser.feature" skipped="0" tests="1" time="1.362283">
+  <testcase classname="features.potsNewUser" name="Create a new user" time="1.362283">
+    <failure message="potsNewUser.feature:23 - status code was: 404, expected: 200, response time: 1314, url: https://www.krafttechexlab.com/sw/api/v1/allusers/register, response: {&quot;message&quot;:&quot;This Email Is Used...&quot;}">* def baseUrl = 'https://www.krafttechexlab.com/sw/api/v1/allusers' ....... passed
+Given url baseUrl ......................................................... passed
+* path 'register' ......................................................... passed
+And header Accept = 'application/json; charset=UTF-8' ..................... passed
+And header Content-Type = 'application/json; charset=UTF-8' ............... passed
+And request ............................................................... passed
+When method POST .......................................................... passed
+Then status 200 ........................................................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: potsNewUser.feature:23 - status code was: 404, expected: 200, response time: 1314, url: https://www.krafttechexlab.com/sw/api/v1/allusers/register, response: {"message":"This Email Is Used..."}&#13;
+	at ✽.Then status 200 (potsNewUser.feature:23)&#13;
+
+* print response .......................................................... skipped
+* print response.token .................................................... skipped
+* def token = response.token .............................................. skipped</failure>
+  </testcase>
+</testsuite>

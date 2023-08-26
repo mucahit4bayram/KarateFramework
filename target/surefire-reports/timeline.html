@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Karate Timeline</title>
+    <style>
+      body, html { font-family: arial, sans-serif; font-size: 11pt; }
+      #visualization { box-sizing: border-box; width: 100%; height: 300px; }
+    </style>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.js"></script>    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.21.0/vis.min.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <div id="visualization"></div>
+    <script>
+var groups = new vis.DataSet([{"id":1,"content":"ForkJoinPool-1-worker-2"},{"id":2,"content":"ForkJoinPool-1-worker-3"},{"id":3,"content":"ForkJoinPool-1-worker-4"},{"id":4,"content":"ForkJoinPool-1-worker-5"},{"id":5,"content":"ForkJoinPool-1-worker-1"},{"id":6,"content":"pool-1-thread-3"}]);
+var items = new vis.DataSet([{"id":1,"group":1,"content":"apiTestWithToken[1:12]","start":2423,"end":2534,"title":"apiTestWithToken[1:12] 02:00:02.423-02:00:02.534 add experience"},{"id":2,"group":2,"content":"assertion[1:6]","start":2430,"end":2550,"title":"assertion[1:6] 02:00:02.430-02:00:02.550 matching"},{"id":3,"group":3,"content":"assertion[2:13]","start":2423,"end":3140,"title":"assertion[2:13] 02:00:02.423-02:00:03.140 Fuzzy Matching"},{"id":4,"group":4,"content":"assertion[3:37]","start":2423,"end":3168,"title":"assertion[3:37] 02:00:02.423-02:00:03.168 Contains Matching"},{"id":5,"group":4,"content":"dataDrivenTest[1.1:16]","start":3184,"end":5272,"title":"dataDrivenTest[1.1:16] 02:00:03.184-02:00:05.272 login users"},{"id":6,"group":3,"content":"dataDrivenTest[1.2:17]","start":3339,"end":6336,"title":"dataDrivenTest[1.2:17] 02:00:03.339-02:00:06.336 login users"},{"id":7,"group":1,"content":"dataDrivenTest[1.3:18]","start":3320,"end":6254,"title":"dataDrivenTest[1.3:18] 02:00:03.320-02:00:06.254 login users"},{"id":8,"group":5,"content":"dataDrivenTest[1.4:19]","start":5258,"end":6758,"title":"dataDrivenTest[1.4:19] 02:00:05.258-02:00:06.758 login users"},{"id":9,"group":4,"content":"dataDrivenTest[1.5:20]","start":5282,"end":5633,"title":"dataDrivenTest[1.5:20] 02:00:05.282-02:00:05.633 login users"},{"id":10,"group":1,"content":"dataDrivenTest[1.6:21]","start":6294,"end":6580,"title":"dataDrivenTest[1.6:21] 02:00:06.294-02:00:06.580 login users"},{"id":11,"group":4,"content":"dataDrivenTest[1.7:22]","start":6517,"end":6782,"title":"dataDrivenTest[1.7:22] 02:00:06.517-02:00:06.782 login users"},{"id":12,"group":2,"content":"dataDrivenTest[1.8:23]","start":6589,"end":6861,"title":"dataDrivenTest[1.8:23] 02:00:06.589-02:00:06.861 login users"},{"id":13,"group":6,"content":"dataDrivenTest[2:28]","start":2423,"end":2423,"title":"dataDrivenTest[2:28] 02:00:02.423-02:00:02.423"},{"id":14,"group":5,"content":"denemeQaTest[1:5]","start":2433,"end":5199,"title":"denemeQaTest[1:5] 02:00:02.433-02:00:05.199 Get all books List"},{"id":15,"group":2,"content":"denemeQaTest[2:15]","start":2579,"end":5201,"title":"denemeQaTest[2:15] 02:00:02.579-02:00:05.201 Json Body Verification"},{"id":16,"group":1,"content":"firstKarateTest[1:4]","start":2568,"end":2635,"title":"firstKarateTest[1:4] 02:00:02.568-02:00:02.635 how to print"},{"id":17,"group":1,"content":"firstKarateTest[2:11]","start":2649,"end":2752,"title":"firstKarateTest[2:11] 02:00:02.649-02:00:02.752 Variables"},{"id":18,"group":1,"content":"firstKarateTest[3:19]","start":2772,"end":3165,"title":"firstKarateTest[3:19] 02:00:02.772-02:00:03.165 Difficult parameters"},{"id":19,"group":3,"content":"firstKarateTest[4:26]","start":3163,"end":3197,"title":"firstKarateTest[4:26] 02:00:03.163-02:00:03.197 Json body"},{"id":20,"group":1,"content":"firstKarateTest[5:38]","start":3181,"end":3308,"title":"firstKarateTest[5:38] 02:00:03.181-02:00:03.308 json body with Array objects"},{"id":21,"group":4,"content":"parameters[1:8]","start":5648,"end":5898,"title":"parameters[1:8] 02:00:05.648-02:00:05.898 path params"},{"id":22,"group":3,"content":"parameters[2:126]","start":6347,"end":7654,"title":"parameters[2:126] 02:00:06.347-02:00:07.654 Query Params"},{"id":23,"group":2,"content":"potsNewUser[1:7]","start":5213,"end":6579,"title":"potsNewUser[1:7] 02:00:05.213-02:00:06.579 Create a new user"},{"id":24,"group":4,"content":"userWithJava[1:3]","start":6447,"end":6501,"title":"userWithJava[1:3] 02:00:06.447-02:00:06.501 create new faker user"},{"id":25,"group":4,"content":"usingJsonData[1:5]","start":5927,"end":6436,"title":"usingJsonData[1:5] 02:00:05.927-02:00:06.436 match response with expected"}]);
+var container = document.getElementById('visualization');
+var timeline = new vis.Timeline(container);
+timeline.setOptions({ groupOrder: 'content' });
+timeline.setGroups(groups);
+timeline.setItems(items);
+</script>
+  </body>
+</html>

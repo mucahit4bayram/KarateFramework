@@ -1,0 +1,28 @@
+<testsuite failures="1" name="features/apiTestWithToken.feature" skipped="0" tests="1" time="0.00171">
+  <testcase classname="features.apiTestWithToken" name="add experience" time="0.00171">
+    <failure message="-unknown-:8 - javascript evaluation failed: read('classpath:features/PostNewUser.feature, &lt;eval&gt;:1:44 Missing close quote&#13;&#10;read('classpath:features/PostNewUser.feature&#13;&#10;                                            ^ in &lt;eval&gt; at line number 1 at column number 44">* def AuthFeature = call read('classpath:features/PostNewUser.feature ..... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: -unknown-:8 - javascript evaluation failed: read('classpath:features/PostNewUser.feature, &lt;eval&gt;:1:44 Missing close quote&#13;
+read('classpath:features/PostNewUser.feature&#13;
+                                            ^ in &lt;eval&gt; at line number 1 at column number 44&#13;
+	at ✽.* def AuthFeature = call read('classpath:features/PostNewUser.feature (-unknown-:8)&#13;
+
+* def UserToken = AuthFeature.token ....................................... skipped
+* print "Token comes from Background" , UserToken ......................... skipped
+Given url https://www.krafttechexlab.com/sw/api/v1/experience/add ......... skipped
+And header Authorization = UserToken ...................................... skipped
+And header Accept = 'application/json; charset=UTF-8' ..................... skipped
+* request ................................................................. skipped
+When method POST .......................................................... skipped
+Then status 200 ........................................................... skipped
+* print response .......................................................... skipped
+Given url 'https://www.krafttechexlab.com/sw/api/v1/experience/all' ....... skipped
+And header Authorization = UserToken ...................................... skipped
+And header Accept = 'application/json; charset=UTF-8' ..................... skipped
+When method GET ........................................................... skipped
+Then status 200 ........................................................... skipped
+* print response .......................................................... skipped
+* match response.experience.company == "Kraft Technologieee" .............. skipped</failure>
+  </testcase>
+</testsuite>

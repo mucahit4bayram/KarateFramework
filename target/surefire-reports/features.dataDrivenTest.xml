@@ -1,0 +1,291 @@
+<testsuite failures="1" name="features/dataDrivenTest.feature" skipped="0" tests="9" time="10.672561">
+  <testcase classname="features.dataDrivenTest" name="login users" time="2.085552">
+    <system-out>Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'thomas@test.com' .................................... passed
+* form field password = 'Test123456!' ..................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.dataDrivenTest" name="login users" time="2.996093">
+    <system-out>Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'thomas@test.com' .................................... passed
+* form field password = 'Test123456!' ..................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'Ramanzi@test.com' ................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.dataDrivenTest" name="login users" time="2.932956">
+    <system-out>Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'thomas@test.com' .................................... passed
+* form field password = 'Test123456!' ..................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'Ramanzi@test.com' ................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user11@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.dataDrivenTest" name="login users" time="1.498094">
+    <system-out>Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'thomas@test.com' .................................... passed
+* form field password = 'Test123456!' ..................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'Ramanzi@test.com' ................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user11@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user22@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.dataDrivenTest" name="login users" time="0.347042">
+    <system-out>Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'thomas@test.com' .................................... passed
+* form field password = 'Test123456!' ..................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'Ramanzi@test.com' ................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user11@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user22@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user33@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.dataDrivenTest" name="login users" time="0.280876">
+    <system-out>Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'thomas@test.com' .................................... passed
+* form field password = 'Test123456!' ..................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'Ramanzi@test.com' ................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user11@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user22@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user33@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user44@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.dataDrivenTest" name="login users" time="0.263817">
+    <system-out>Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'thomas@test.com' .................................... passed
+* form field password = 'Test123456!' ..................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'Ramanzi@test.com' ................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user11@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user22@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user33@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user44@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user55@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.dataDrivenTest" name="login users" time="0.26813">
+    <system-out>Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'thomas@test.com' .................................... passed
+* form field password = 'Test123456!' ..................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'Ramanzi@test.com' ................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user11@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user22@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user33@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user44@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user55@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user66@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed</system-out>
+  </testcase>
+  <testcase classname="features.dataDrivenTest" name="9" time="0">
+    <failure message="dataDrivenTest.feature:28 - javascript evaluation failed: read('data/users.csv', &lt;eval&gt;:1:21 Expected , but found eof&#13;&#10;read('data/users.csv'&#13;&#10;                     ^ in &lt;eval&gt; at line number 1 at column number 21">Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'thomas@test.com' .................................... passed
+* form field password = 'Test123456!' ..................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'Ramanzi@test.com' ................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user11@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user22@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user33@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user44@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user55@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+Given url 'https://www.krafttechexlab.com/sw/api/v1/allusers/login' ....... passed
+* form field email = 'user66@test.com' .................................... passed
+* form field password = 'Test123456' ...................................... passed
+When method POST .......................................................... passed
+* status 200 .............................................................. passed
+* print response .......................................................... passed
+* dynamic expression evaluation failed: read('data/users.csv' ............. failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: dataDrivenTest.feature:28 - javascript evaluation failed: read('data/users.csv', &lt;eval&gt;:1:21 Expected , but found eof&#13;
+read('data/users.csv'&#13;
+                     ^ in &lt;eval&gt; at line number 1 at column number 21&#13;
+	at ✽.* dynamic expression evaluation failed: read('data/users.csv' (dataDrivenTest.feature:28)</failure>
+  </testcase>
+</testsuite>

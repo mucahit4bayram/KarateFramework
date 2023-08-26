@@ -1,0 +1,24 @@
+<testsuite failures="1" name="features/userWithJava.feature" skipped="0" tests="1" time="0.053356">
+  <testcase classname="features.userWithJava" name="create new faker user" time="0.053356">
+    <failure message="userWithJava.feature:7 - javascript evaluation failed: UserGenerator.UserDataGenerator(), TypeError: UserGenerator.UserDataGenerator is not a function in &lt;eval&gt; at line number 1">* def baseUrl = 'https://www.krafttechexlab.com/sw/api/v1/allusers' ....... passed
+* def UserGenerator = Java.type('utilities.NewUserDataGenerator') ......... passed
+* def NewUser = UserGenerator.UserDataGenerator() ......................... failed
+
+Stack Trace:
+com.intuit.karate.exception.KarateException: userWithJava.feature:7 - javascript evaluation failed: UserGenerator.UserDataGenerator(), TypeError: UserGenerator.UserDataGenerator is not a function in &lt;eval&gt; at line number 1&#13;
+	at ✽.* def NewUser = UserGenerator.UserDataGenerator() (userWithJava.feature:7)&#13;
+
+* print NewUser ........................................................... skipped
+Given url baseUrl ......................................................... skipped
+* path 'register' ......................................................... skipped
+And header Accept = 'application/json; charset=UTF-8' ..................... skipped
+And header Content-Type = 'application/json; charset=UTF-8' ............... skipped
+And request NewUser ....................................................... skipped
+When method POST .......................................................... skipped
+Then status 200 ........................................................... skipped
+* print response .......................................................... skipped
+* match response.name == NewUser.name ..................................... skipped
+* print response.token .................................................... skipped
+* def token = response.token .............................................. skipped</failure>
+  </testcase>
+</testsuite>
